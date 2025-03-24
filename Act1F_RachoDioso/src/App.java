@@ -63,8 +63,13 @@ public class App {
         tree.insert(8);
         tree.insert(20);
 
+        System.out.println("In-Order Traversal:");
         tree.inOrder(tree.root);
+        System.out.println();
+        System.out.println("Pre-Order Traversal:");
         tree.preOrder(tree.root);
+        System.out.println();
+        System.out.println("Post-Order Traversal:");
         tree.postOrder(tree.root);
     }
 }
